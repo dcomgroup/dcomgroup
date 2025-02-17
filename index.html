@@ -11,21 +11,31 @@
             box-sizing: border-box;
         }
 
-        body {
+        html, body {
+            height: 100%;
+            overflow: hidden;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
             background-color: #ffffff;
         }
 
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
         img {
-            max-width: 80%;
+            width: 30%;
+            max-width: 150px;
             height: auto;
         }
     </style>
 </head>
 <body>
-    <img src="logo.png" alt="DCOM Logo">
+    <a href="mailto:eichelbaum@dcom.group">
+        <img src="logo.png" alt="DCOM Logo">
+    </a>
 </body>
 </html>
